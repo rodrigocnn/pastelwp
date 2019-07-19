@@ -1,0 +1,41 @@
+/***************************************
+             MENU
+****************************************/
+.navbar-toggle{
+  float: right;
+  width: 50px;
+  background:#fff url('../img/bg-menu-responsivo.png') no-repeat;
+}
+
+.menu-main{
+
+  height: 55px;
+  background-color: #fff;
+  margin-top: 130px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+
+}
+
+#navbar{
+  max-width: 100%;
+}
+
+
+.navbar-nav>li>a {
+  color: #c6893d;
+  padding: 15px 22px 10px 22px;
+  margin-top: 5px;
+  font-size: 1.1em;
+}
+
+.navbar-nav>li:first-child a , .navbar-nav>li.active a {
+  color: #009d4f;
+} 
+
+
+ .navbar-nav>li>a:hover{
+  color: #009d4f;
+  background: none;
+}
